@@ -1,0 +1,50 @@
+.signup {
+    margin: 20px 25px;
+    font-size: 20px;
+    color: #3288c7;
+}
+
+a:hover {
+    color: #6eb4e7;
+}
+
+.loginInputArea {
+    width: 30%;
+    margin: auto;
+    margin-top: 115px;
+}
+
+.loginInputArea .logo {
+    width: 100px;
+    margin-bottom: 37px;
+}
+
+.loginInputArea input {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.loginInputArea label {
+    color: white;
+    font-size: 18px;
+}
+
+.loginInputArea button {
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(0, 155, 222, 0.75);
+    color: white;
+    border: 1px solid white;
+}
+
+.loginInputArea button:hover {
+    background-color: transparent;
+    font-size: 20px;
+    color: #009bde;
+    border: 1px solid #009bde;
+}

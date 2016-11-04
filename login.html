@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Chirp Chirp Login</title>
+    <meta name="description" content="Login!">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+    <div class="text-right signup">
+        <a href="./signup.html">oops, i wanted to <b>sign up</b></a>
+    </div>
+    <div class="container">
+        <form method="post" action="#">
+            <div class="loginInputArea text-center">
+                <a href="./index.html"><img class="logo" src="assets/bird.png" /></a>
+                <div class="form-group">
+                    <label for="name">username</label>
+                    <input type="text" class="form-control" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                    <label for="password">password</label>
+                    <input type="password" class="form-control" id="password" name="password" required />
+                </div>
+                <button type="button" id="btnSignin" class="btn btn-block">get yo chirp on!</button>
+            </div>
+            <div id="errorMessage">
+            </div>
+        </form>
+    </div>
+    <script src=".js/config.js"></script>
+    <script src=".js/login.js"></script>
+
+</body>
+</html>

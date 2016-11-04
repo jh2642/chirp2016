@@ -1,0 +1,66 @@
+$lightBlue: rgb(110, 180, 231);
+$mediumBlue: rgb(0, 155, 222);
+$darkBlue: rgb(50, 136, 199);
+$gold: rgb(255, 184, 25);
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Cute-Grey-Tilable-Pattern-For-Website-Background.jpg);
+
+}
+
+.timeline {
+    font-size: 20px;
+    color: $darkBlue;
+    font-weight: 700;
+    margin: -95px 13px 20px;
+}
+
+.logo {
+    width: 65px;
+    margin: 25px 35px;
+}
+
+a:hover {
+    color: $lightBlue;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: white;
+    h1 {
+        font-size: 90px;
+        color: $darkBlue;
+    }
+}
+
+h3 {
+    color: $darkBlue;
+    background-color: rgba(245, 243, 244, .5);
+    margin: -30px 0px 0px;
+    border-radius: 3px;
+}
+
+.followProfile {
+  margin-top: 20px;
+}
+
+.btn-default {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-success {
+    background-color: darkGray;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-default:hover {
+    background-color: $darkBlue;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: black;
+}

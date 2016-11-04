@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Chirp Sign Up</title>
+    <meta name="description" content="Signup!">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/signup.css">
+
+
+</head>
+
+<body>
+    <span>
+        <a href="./index.html"><img class="logo" src="assets/bird.png" /></a>
+    </span>
+    <div class="text-right login">
+        <a href="./login.html">actually, i wanted to <b>login</b></a>
+    </div>
+    <div class="container">
+        <div class="text-center">
+            <h1>welcome to chirp</h1>
+    </div>
+
+    <form method="post" action="#">
+
+        <div class="signupInputArea text-center">
+            <div class="form-group">
+                <label for="name">username</label>
+                <input type="text" class="form-control" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+                <label for="email">email</label>
+                <input type="text" class="form-control" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+                <label for="password">password</label>
+                <input type="text" class="form-control" id="password" name="password" required />
+            </div>
+            <div class="form-group">
+                <label for="userpic">profile pic</label>
+                <input type="text" class="form-control" id="userpic" name="userpic" required />
+            </div>
+            <button type="button" id="btnSignup" class="btn btn-default btn-block">ready, set, chirp!</button>
+        </div>
+
+    </form>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/signup.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+$lightBlue: rgb(110, 180, 231);
+$mediumBlue: rgb(0, 155, 222);
+$darkBlue: rgb(50, 136, 199);
+$gold: rgb(255, 184, 25);
+
+.logo {
+    width: 65px;
+    margin: 25px 35px;
+}
+
+.login {
+    margin: -95px 25px 20px;
+    font-size: 20px;
+    color: $darkBlue;
+}
+
+a:hover {
+    color: $lightBlue;
+}
+
+h1 {
+    font-size: 120px;
+    color: $darkBlue;
+    margin: 90px 0px 0px;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+.signupInputArea {
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    input {
+        background-color: transparent;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+    label {
+        color: white;
+        font-size: 18px;
+    }
+    button {
+        width: 250px;
+        margin: auto;
+        margin-top: 50px;
+        font-size: 18px;
+        font-weight: 700;
+        background-color: rgba(0, 155, 222, .75);
+        color: white;
+    }
+    button:hover {
+        background-color: transparent;
+        font-size: 20px;
+        color: $mediumBlue;
+        border: 1px solid $mediumBlue;
+    }
+}

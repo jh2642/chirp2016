@@ -1,0 +1,34 @@
+$lightBlue: rgb(110, 180, 231);
+$mediumBlue: rgb(0, 155, 222);
+$darkBlue: rgb(50, 136, 199);
+$gold: rgb(255, 184, 25);
+
+.logo {
+    width: 65px;
+    margin: 25px 35px;
+}
+
+h1 {
+    font-size: 200px;
+    color: white;
+    margin: 150px 0px -20px;
+}
+
+h3 {
+    color: white;
+    font-weight: 300;
+
+}
+
+.btns {
+    margin-top: 130px;
+    .btn {
+        font-size: 20px;
+        font-weight: 700;
+        border: 1px solid white;
+        color: white;
+        background-color: transparent;
+        margin: 0px 5px;
+        width: 150px;
+    }
+}
