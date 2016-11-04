@@ -1,0 +1,74 @@
+$lightBlue: rgb(110, 180, 231);
+$mediumBlue: rgb(0, 155, 222);
+$darkBlue: rgb(50, 136, 199);
+$gold: rgb(255, 184, 25);
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(0, 155, 222, 0.44);
+}
+
+#logout {
+    font-size: 20px;
+    font-weight: 400;
+    margin: -95px 25px 20px;
+    text-shadow: -1px 0 $mediumBlue, 0 1px $mediumBlue, 1px 0 $mediumBlue, 0 -1px $mediumBlue;
+    a {
+        color: white;
+    }
+}
+
+.logo {
+    width: 65px;
+    margin: 25px 690px;
+}
+
+#logoutLink:hover {
+    color: $mediumBlue;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-decoration: none;
+}
+
+#userpic {
+    border: 1px solid $lightBlue;
+    margin-top: 50px;
+}
+
+#timeline {
+    background-color: $darkBlue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+
+h3 {
+    color: white;
+}
+
+#profileUsername {
+    color: white;
+    text-shadow: -1px 0 $darkBlue, 0 1px $darkBlue, 1px 0 $darkBlue, 0 -1px $darkBlue;
+}
+
+#follow {
+    font-size: 18px;
+    color: $darkBlue;
+    font-weight: 700;
+    margin: 15px 0px 0px;
+}
+
+#button{
+    font-size: 17px;
+    margin-top: 10px;
+    background-color: $darkBlue;
+    color: white;
+    border: 1px solid white;
+    text-shadow: none;
+}
+
+#button:hover  {
+    background-color: $lightBlue;
+    border: 1px solid $darkBlue;
+}

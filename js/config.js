@@ -1,9 +1,9 @@
 // API Host
-//var api = 'https://arcane-shore-86443.herokuapp.com'
-var api = 'https://923ad329.ngrok.io'
+var api = 'https://arcane-shore-86443.herokuapp.com'
+// var api = 'https://923ad329.ngrok.io'
 var tokenId = 'api_token'
 var token = sessionStorage.getItem(tokenId)
-
+// 94234afd8775c22cbf6e key
 // Utilities
 // endpoint ... /users
 // formFields ... {name: 'Joe'}
@@ -40,6 +40,7 @@ function fetchApi(method, endpoint, formFields, callback) {
       return response.json()
     })
     .then(function(data) {
+        console.log(data)
       if (typeof callback === 'function') {
           callback(data, statusCode)
       }
